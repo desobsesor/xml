@@ -1,0 +1,29 @@
+{
+  "name": "xml.cds.net.co",
+  "version": "1.0.0",
+  "description": "CDS XML",
+  "main": "serverXML.js",
+  "scripts": {
+    "start": "node serverXML.js",
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "keywords": [
+    "PDF",
+    "NodeJS",
+    "API"
+  ],
+  "author": "Yovany Suárez Silva, Lisandro Celis Carvajal",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "^0.0.0",
+    "moment": "^2.17.1",
+    "xml-js": "^1.6.11"
+  }
+}
