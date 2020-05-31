@@ -88,7 +88,7 @@ module.exports = function (app) {
             //path: 'http://xml.cds.net.co/sources/temp/pdf/', //PRODUCCION
             path:'http://localhost:5033/sources/temp/xml/', //DESARROLLO
             file: 'invoice_' + req.body.empresa.nit + '_' + req.body.cliente.documento + '_' + req.body.factura_no + '.xml',
-            msg: 'sources/temp/pdf/invoice_' + req.body.empresa.nit + '_' + req.body.cliente.documento + '_' + req.body.factura_no + '.xml'
+            msg: 'sources/temp/xml/invoice_' + req.body.empresa.nit + '_' + req.body.cliente.documento + '_' + req.body.factura_no + '.xml'
         });
     }
 
